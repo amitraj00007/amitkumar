@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AK Disign.Com</title>
+    <style>
+            body {
+
+
+color: white;
+margin: 0px;
+padding: 0px;
+background: url('img.jpg');
+background-size: 1600px 700px;
+background-repeat: no-repeat;
+}
+
+.left {
+text-align: center;
+display: inline-block;
+position: absolute;
+top: 20px;
+left: 40px;
+
+}
+
+.left img {
+width: 40px;
+border-radius: 20px;
+}
+
+.left div {
+text-align: center;
+}
+
+.mid {
+display: block;
+
+
+width: 35%;
+margin: 20px auto;
+/* border: 2PX solid green;  */
+
+
+
+
+}
+
+.right {
+
+display: inline-block;
+position: absolute;
+top: 34px;
+right: 34px;
+
+font-size: 16px;
+
+
+}
+
+.navbar {
+display: inline-block;
+
+}
+
+.navbar li {
+display: inline-block;
+font-size: 18px;
+}
+
+.navbar li a {
+color: white;
+text-decoration: none;
+padding: 21px 21px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+text-decoration: underline;
+color: grey;
+}
+
+.btn {
+margin: 0px 9px;
+border: 2px solid grey;
+border-radius: 10px;
+color: white;
+background-color: rgb(52, 40, 40);
+cursor: pointer;
+font-size: 12px;
+padding: 4px 8px;
+}
+
+.btn:hover {
+background-color: rgb(73, 140, 140);
+}
+
+.container {
+/* border: 2px solid white; */
+margin: 25px 68px;
+;
+padding: 20px;
+width: 30%;
+border-radius: 16px;
+
+}
+
+.form-group input {
+text-align: center;
+width: 300px;
+display: block;
+margin: 10px auto;
+padding: 1px;
+border: 2px solid black;
+border-radius: 8px;
+font-size: 16px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.container h1 {
+text-align: center;
+}
+
+.container button {
+
+margin: auto;
+width: 60%;
+display: block;
+
+}
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">i-coder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+
+                    <a class="nav-link" href="about.html" target="_blank">About </a>
+                    <a class="nav-link" href="contact.html" target="_blank">Contact us</a>
+                </div>
+
+            </div>
+    </nav>
+
+    </nav>
+    <div class="container my-4">
+        <h2>Contact us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Enter Your Name</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+   
+
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2022-2023 mr AK, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+</body>
+
+</html>
